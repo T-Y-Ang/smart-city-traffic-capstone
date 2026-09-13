@@ -24,3 +24,8 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# SQLite temporary files
+*.db-journal
+*.db-wal
+*.db-shm

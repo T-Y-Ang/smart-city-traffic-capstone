@@ -127,3 +127,47 @@ GROUP BY
 ORDER BY
     holiday,
     holiday_date;
+
+-- 6. Calculate holiday temperature and traffic statistics
+-- after collapsing duplicate timestamps
+
+WITH holiday_dates AS (
+    SELECT DISTINCT
+        date(date_time) AS holiday_date,
+        holiday
+    FROM Metro_Interstate_Traffic_Volume
+    WHERE holiday IN ('New Years Day', 'Labor Day')
+        AND strftime('%Y', date_time) BETWEEN '2015' AND '2017'
+),
+
+hourly_deduplicated AS (
+    SELECT
+        h.holiday_date,
+        h.holiday,
+        t.date_time,
+        AVG(t.temp) AS temp,
+        AVG(t.traffic_volume) AS traffic_volume
+    FROM holiday_dates AS h
+    JOIN Metro_Interstate_Traffic_Volume AS t
+        ON date(t.date_time) = h.holiday_date
+    GROUP BY
+        h.holiday_date,
+        h.holiday,
+        t.date_time
+)
+
+SELECT
+    strftime('%Y', holiday_date) AS year,
+    holiday,
+    COUNT(*) AS hourly_observations,
+    ROUND(AVG(temp), 2) AS avg_temp_k,
+    ROUND(MIN(temp), 2) AS min_temp_k,
+    ROUND(MAX(temp), 2) AS max_temp_k,
+    ROUND(AVG(traffic_volume), 2) AS avg_traffic_volume
+FROM hourly_deduplicated
+GROUP BY
+    holiday_date,
+    holiday
+ORDER BY
+    holiday,
+    holiday_date;

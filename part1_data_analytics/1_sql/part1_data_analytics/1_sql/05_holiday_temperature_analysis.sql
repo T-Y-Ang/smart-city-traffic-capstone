@@ -171,3 +171,72 @@ GROUP BY
 ORDER BY
     holiday,
     holiday_date;
+
+-- 7. Calculate year-over-year changes in average temperature and traffic
+
+WITH holiday_dates AS (
+    SELECT DISTINCT
+        date(date_time) AS holiday_date,
+        holiday
+    FROM Metro_Interstate_Traffic_Volume
+    WHERE holiday IN ('New Years Day', 'Labor Day')
+        AND strftime('%Y', date_time) BETWEEN '2015' AND '2017'
+),
+
+hourly_deduplicated AS (
+    SELECT
+        h.holiday_date,
+        h.holiday,
+        t.date_time,
+        AVG(t.temp) AS temp,
+        AVG(t.traffic_volume) AS traffic_volume
+    FROM holiday_dates AS h
+    JOIN Metro_Interstate_Traffic_Volume AS t
+        ON date(t.date_time) = h.holiday_date
+    GROUP BY
+        h.holiday_date,
+        h.holiday,
+        t.date_time
+),
+
+holiday_summary AS (
+    SELECT
+        CAST(strftime('%Y', holiday_date) AS INTEGER) AS year,
+        holiday,
+        AVG(temp) AS avg_temp_k,
+        AVG(traffic_volume) AS avg_traffic_volume
+    FROM hourly_deduplicated
+    GROUP BY
+        holiday_date,
+        holiday
+)
+
+SELECT
+    year,
+    holiday,
+    ROUND(avg_temp_k, 2) AS avg_temp_k,
+
+    ROUND(
+        avg_temp_k -
+        LAG(avg_temp_k) OVER (
+            PARTITION BY holiday
+            ORDER BY year
+        ),
+        2
+    ) AS temp_change_k,
+
+    ROUND(avg_traffic_volume, 2) AS avg_traffic_volume,
+
+    ROUND(
+        avg_traffic_volume -
+        LAG(avg_traffic_volume) OVER (
+            PARTITION BY holiday
+            ORDER BY year
+        ),
+        2
+    ) AS traffic_change
+
+FROM holiday_summary
+ORDER BY
+    holiday,
+    year;

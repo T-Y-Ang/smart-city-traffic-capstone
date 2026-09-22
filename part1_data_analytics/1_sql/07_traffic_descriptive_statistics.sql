@@ -1,30 +1,64 @@
 -- Smart City Traffic Capstone
 -- Task 2.1: Descriptive statistics for traffic volume
 
--- 1. Mean traffic volume
-SELECT
-    ROUND(AVG(traffic_volume), 2) AS mean_traffic_volume
-FROM Metro_Interstate_Traffic_Volume;
--- Mean traffic volume = 3259.82
+-- 1. Mean traffic volume using one observation per unique hour
 
--- 2. Median traffic volume
+WITH hourly_data AS (
+    SELECT
+        date_time,
+        AVG(traffic_volume) AS traffic_volume
+    FROM Metro_Interstate_Traffic_Volume
+    GROUP BY date_time
+)
+
+SELECT
+    COUNT(*) AS hourly_observations,
+    ROUND(AVG(traffic_volume), 2) AS mean_traffic_volume
+FROM hourly_data;
+
+-- Hourly observations = 40,575
+-- Mean traffic volume = 3,290.65
+
+
+-- 2. Median traffic volume using one observation per unique hour
+
+WITH hourly_data AS (
+    SELECT
+        date_time,
+        AVG(traffic_volume) AS traffic_volume
+    FROM Metro_Interstate_Traffic_Volume
+    GROUP BY date_time
+)
+
 SELECT
     AVG(traffic_volume) AS median_traffic_volume
 FROM (
     SELECT traffic_volume
-    FROM Metro_Interstate_Traffic_Volume
+    FROM hourly_data
     ORDER BY traffic_volume
-    LIMIT 2 - (SELECT COUNT(*) FROM Metro_Interstate_Traffic_Volume) % 2
-    OFFSET (SELECT (COUNT(*) - 1) / 2 FROM Metro_Interstate_Traffic_Volume)
+    LIMIT 2 - (SELECT COUNT(*) FROM hourly_data) % 2
+    OFFSET (SELECT (COUNT(*) - 1) / 2 FROM hourly_data)
 );
--- Median traffic volume = 3380.0
 
--- 3. Population standard deviation of traffic volume
-WITH stats AS (
+-- Median traffic volume = 3,427.0
+
+
+-- 3. Population standard deviation using one observation per unique hour
+
+WITH hourly_data AS (
+    SELECT
+        date_time,
+        AVG(traffic_volume) AS traffic_volume
+    FROM Metro_Interstate_Traffic_Volume
+    GROUP BY date_time
+),
+
+stats AS (
     SELECT
         AVG(traffic_volume) AS mean_traffic_volume
-    FROM Metro_Interstate_Traffic_Volume
+    FROM hourly_data
 )
+
 SELECT
     ROUND(
         SQRT(
@@ -34,17 +68,28 @@ SELECT
             )
         ),
         2
-    ) AS standard_deviation
-FROM Metro_Interstate_Traffic_Volume, stats;
+    ) AS population_standard_deviation
+FROM hourly_data, stats;
 
--- Population standard deviation of traffic volume = 1986.84
+-- Population standard deviation = 1,984.75
 
--- 4. Population variance of traffic volume
-WITH stats AS (
+
+-- 4. Population variance using one observation per unique hour
+
+WITH hourly_data AS (
+    SELECT
+        date_time,
+        AVG(traffic_volume) AS traffic_volume
+    FROM Metro_Interstate_Traffic_Volume
+    GROUP BY date_time
+),
+
+stats AS (
     SELECT
         AVG(traffic_volume) AS mean_traffic_volume
-    FROM Metro_Interstate_Traffic_Volume
+    FROM hourly_data
 )
+
 SELECT
     ROUND(
         AVG(
@@ -52,28 +97,39 @@ SELECT
             (traffic_volume - mean_traffic_volume)
         ),
         2
-    ) AS variance
-FROM Metro_Interstate_Traffic_Volume, stats;
+    ) AS population_variance
+FROM hourly_data, stats;
 
--- Population variance = 396047533.3
+-- Population variance = 3,939,226.41
 
--- 5. Range of traffic volume
+
+-- 5. Range of traffic volume using one observation per unique hour
+
+WITH hourly_data AS (
+    SELECT
+        date_time,
+        AVG(traffic_volume) AS traffic_volume
+    FROM Metro_Interstate_Traffic_Volume
+    GROUP BY date_time
+)
+
 SELECT
     MIN(traffic_volume) AS minimum_traffic_volume,
     MAX(traffic_volume) AS maximum_traffic_volume,
     MAX(traffic_volume) - MIN(traffic_volume) AS traffic_volume_range
-FROM Metro_Interstate_Traffic_Volume;
+FROM hourly_data;
 
--- Range of traffic volume
 -- Minimum = 0
--- Maximum = 7280
--- Traffic volume range = 7280
+-- Maximum = 7,280
+-- Traffic volume range = 7,280
 
--- Statistics of traffic
--- Mean = 3,259.82
--- Median = 3,380.00
--- Population standard deviation = 1,986.84
--- Population variance = 3,947,533.43
+
+-- Final descriptive statistics
+-- Number of unique hourly observations = 40,575
+-- Mean = 3,290.65
+-- Median = 3,427.00
+-- Population standard deviation = 1,984.75
+-- Population variance = 3,939,226.41
 -- Minimum = 0
 -- Maximum = 7,280
 -- Range = 7,280

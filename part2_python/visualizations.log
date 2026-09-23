@@ -1,0 +1,7 @@
+2026-09-24 01:00:12,064 - INFO - Traffic visualisation pipeline started.
+2026-09-24 01:00:12,162 - INFO - Engineered dataset loaded successfully: 40575 rows, 32 columns.
+2026-09-24 01:00:12,440 - INFO - Figure saved successfully: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/figures/hourly_profile_weekday_weekend.png
+2026-09-24 01:00:12,616 - INFO - Figure saved successfully: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/figures/traffic_volume_distribution.png
+2026-09-24 01:00:13,391 - INFO - Figure saved successfully: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/figures/temperature_vs_traffic.png
+2026-09-24 01:00:13,632 - INFO - Figure saved successfully: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/figures/congestion_by_hour.png
+2026-09-24 01:00:13,632 - INFO - Traffic visualisation pipeline finished successfully.

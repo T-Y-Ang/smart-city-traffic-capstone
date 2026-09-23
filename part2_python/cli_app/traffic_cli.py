@@ -22,9 +22,12 @@ LOG_FILE = CLI_DIR / "cli.log"
 # --------------------------------------------------
 
 logging.basicConfig(
-    filename=LOG_FILE,
     level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s",
+    format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_FILE, mode="a"),
+        logging.StreamHandler()
+    ],
     force=True
 )
 

@@ -16,12 +16,16 @@ OUTPUT_DIR = BASE_DIR / "data"
 CLEANED_DATA_FILE = OUTPUT_DIR / "cleaned_traffic_data.csv"
 HOURLY_DATA_FILE = OUTPUT_DIR / "hourly_traffic_data.csv"
 
-# Configure logging
+
 # Configure logging
 logging.basicConfig(
-    filename=LOG_FILE,
     level=logging.INFO,
-    format="%(asctime)s - %(levelname)s - %(message)s"
+    format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
+    handlers=[
+        logging.FileHandler(LOG_FILE, mode="a"),
+        logging.StreamHandler()
+    ],
+    force=True
 )
 
 logger = logging.getLogger(__name__)

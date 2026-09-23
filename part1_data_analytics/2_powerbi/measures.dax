@@ -1,0 +1,15 @@
+// DAX behind traffic_dashboard.pbix, Part 1 Tasks 4.2 and 4.3.
+// Table: Metro_Interstate_Traffic_Volume. The CSV repeats an hour once per weather
+// condition, so the measures count each hour (date_time) once, as in the SQL tasks.
+
+// Calculated columns (Modeling > New column)
+Year = YEAR(Metro_Interstate_Traffic_Volume[date_time])
+
+Date = DATE(YEAR(Metro_Interstate_Traffic_Volume[date_time]), MONTH(Metro_Interstate_Traffic_Volume[date_time]), DAY(Metro_Interstate_Traffic_Volume[date_time]))
+
+// Measures (Home > New measure)
+Total Hours Analysed = DISTINCTCOUNT(Metro_Interstate_Traffic_Volume[date_time])
+
+Average Traffic Volume = AVERAGEX(VALUES(Metro_Interstate_Traffic_Volume[date_time]), CALCULATE(MIN(Metro_Interstate_Traffic_Volume[traffic_volume])))
+
+Average Temperature (C) = AVERAGEX(VALUES(Metro_Interstate_Traffic_Volume[date_time]), CALCULATE(AVERAGE(Metro_Interstate_Traffic_Volume[Temperature (C)])))

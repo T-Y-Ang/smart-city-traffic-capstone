@@ -1,0 +1,403 @@
+2026-09-23 13:09:44,559 - INFO - Traffic data pipeline started.
+2026-09-23 13:22:38,372 - INFO - Traffic data pipeline started.
+2026-09-23 13:30:42,893 - INFO - Traffic data pipeline started.
+2026-09-23 13:33:32,512 - INFO - Traffic data pipeline started.
+2026-09-23 13:33:32,557 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 13:33:32,557 - INFO - Traffic data pipeline finished.
+2026-09-23 13:37:16,695 - INFO - Traffic data pipeline started.
+2026-09-23 13:37:16,735 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 13:37:16,735 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 13:37:16,735 - INFO - Traffic data pipeline finished.
+2026-09-23 13:47:33,977 - INFO - Traffic data pipeline started.
+2026-09-23 13:47:34,019 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 13:47:34,019 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 13:47:34,036 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 13:47:34,036 - INFO - Traffic data pipeline finished.
+2026-09-23 14:03:13,355 - INFO - Traffic data pipeline started.
+2026-09-23 14:03:13,396 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 14:03:13,396 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 14:03:13,401 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 14:03:13,413 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 14:03:13,415 - INFO - Traffic data pipeline finished.
+2026-09-23 14:05:33,834 - INFO - Traffic data pipeline started.
+2026-09-23 14:05:33,872 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 14:05:33,872 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 14:05:33,877 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 14:05:33,887 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 14:05:33,910 - INFO - Removed 17 exact duplicate rows. 48187 rows remain.
+2026-09-23 14:05:33,911 - INFO - Found 13042 rows belonging to repeated timestamps; these were retained because they may represent different weather conditions.
+2026-09-23 14:05:33,911 - INFO - Traffic data pipeline finished.
+2026-09-23 14:07:51,062 - INFO - Traffic data pipeline started.
+2026-09-23 14:07:51,112 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 14:07:51,114 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 14:07:51,122 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 14:07:51,133 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 14:07:51,154 - INFO - Removed 17 exact duplicate rows. 48187 rows remain.
+2026-09-23 14:07:51,156 - INFO - Found 13042 rows belonging to repeated timestamps; these were retained because they may represent different weather conditions.
+2026-09-23 14:07:51,157 - WARNING - Found 10 invalid temperature values at or below 0 K.
+2026-09-23 14:07:51,158 - WARNING - Found 1 extreme rainfall values above 500 mm/hour.
+2026-09-23 14:07:51,158 - INFO - Numeric anomaly cleaning completed.
+2026-09-23 14:07:51,159 - INFO - Traffic data pipeline finished.
+2026-09-23 14:11:55,141 - INFO - Traffic data pipeline started.
+2026-09-23 14:11:55,185 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 14:11:55,185 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 14:11:55,190 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 14:11:55,201 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 14:11:55,221 - INFO - Removed 17 exact duplicate rows. 48187 rows remain.
+2026-09-23 14:11:55,222 - INFO - Found 13042 rows belonging to repeated timestamps; these were retained because they may represent different weather conditions.
+2026-09-23 14:11:55,223 - WARNING - Found 10 invalid temperature values at or below 0 K.
+2026-09-23 14:11:55,224 - WARNING - Found 1 extreme rainfall values above 500 mm/hour.
+2026-09-23 14:11:55,224 - INFO - Numeric anomaly cleaning completed.
+2026-09-23 14:11:55,227 - INFO - Imputed 10 missing values in temp using median 282.46.
+2026-09-23 14:11:55,228 - INFO - Imputed 1 missing values in rain_1h using median 0.00.
+2026-09-23 14:11:55,228 - INFO - Missing-value imputation completed.
+2026-09-23 14:11:55,228 - INFO - Traffic data pipeline finished.
+2026-09-23 17:48:49,037 - INFO - Traffic data pipeline started.
+2026-09-23 17:48:49,081 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 17:48:49,082 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 17:48:49,090 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 17:48:49,101 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 17:48:49,124 - INFO - Removed 17 exact duplicate rows. 48187 rows remain.
+2026-09-23 17:48:49,125 - INFO - Found 13042 rows belonging to repeated timestamps; these were retained because they may represent different weather conditions.
+2026-09-23 17:48:49,127 - WARNING - Found 10 invalid temperature values at or below 0 K.
+2026-09-23 17:48:49,127 - WARNING - Found 1 extreme rainfall values above 500 mm/hour.
+2026-09-23 17:48:49,128 - INFO - Numeric anomaly cleaning completed.
+2026-09-23 17:48:49,130 - INFO - Imputed 10 missing values in temp using median 282.46.
+2026-09-23 17:48:49,131 - INFO - Imputed 1 missing values in rain_1h using median 0.00.
+2026-09-23 17:48:49,131 - INFO - Missing-value imputation completed.
+2026-09-23 17:48:49,131 - INFO - Traffic data pipeline finished.
+2026-09-23 17:49:54,531 - INFO - Traffic data pipeline started.
+2026-09-23 17:49:54,580 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 17:49:54,580 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 17:49:54,585 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 17:49:54,597 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 17:49:54,619 - INFO - Removed 17 exact duplicate rows. 48187 rows remain.
+2026-09-23 17:49:54,620 - INFO - Found 13042 rows belonging to repeated timestamps; these were retained because they may represent different weather conditions.
+2026-09-23 17:49:54,621 - WARNING - Found 10 invalid temperature values at or below 0 K.
+2026-09-23 17:49:54,622 - WARNING - Found 1 extreme rainfall values above 500 mm/hour.
+2026-09-23 17:49:54,622 - INFO - Numeric anomaly cleaning completed.
+2026-09-23 17:49:54,624 - INFO - Imputed 10 missing values in temp using median 282.46.
+2026-09-23 17:49:54,625 - INFO - Imputed 1 missing values in rain_1h using median 0.00.
+2026-09-23 17:49:54,625 - INFO - Missing-value imputation completed.
+2026-09-23 17:49:54,635 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, temp_c, is_congested.
+2026-09-23 17:49:54,636 - INFO - Traffic data pipeline finished.
+2026-09-23 17:58:54,272 - INFO - Traffic data pipeline started.
+2026-09-23 17:58:54,355 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 17:58:54,356 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 17:58:54,361 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 17:58:54,371 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 17:58:54,392 - INFO - Removed 17 exact duplicate rows. 48187 rows remain.
+2026-09-23 17:58:54,393 - INFO - Found 13042 rows belonging to repeated timestamps; these were retained because they may represent different weather conditions.
+2026-09-23 17:58:54,395 - WARNING - Found 10 invalid temperature values at or below 0 K.
+2026-09-23 17:58:54,397 - WARNING - Found 1 extreme rainfall values above 500 mm/hour.
+2026-09-23 17:58:54,398 - INFO - Numeric anomaly cleaning completed.
+2026-09-23 17:58:54,399 - INFO - Imputed 10 missing values in temp using median 282.46.
+2026-09-23 17:58:54,400 - INFO - Imputed 1 missing values in rain_1h using median 0.00.
+2026-09-23 17:58:54,400 - INFO - Missing-value imputation completed.
+2026-09-23 17:58:54,408 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, temp_c, is_congested.
+2026-09-23 17:58:54,408 - INFO - Traffic data pipeline finished.
+2026-09-23 18:09:18,053 - INFO - Traffic data pipeline started.
+2026-09-23 18:09:18,095 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 18:09:18,095 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 18:09:18,100 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 18:09:18,111 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 18:09:18,132 - INFO - Removed 17 exact duplicate rows. 48187 rows remain.
+2026-09-23 18:09:18,133 - INFO - Found 13042 rows belonging to repeated timestamps; these were retained because they may represent different weather conditions.
+2026-09-23 18:09:18,133 - WARNING - Found 10 invalid temperature values at or below 0 K.
+2026-09-23 18:09:18,134 - WARNING - Found 1 extreme rainfall values above 500 mm/hour.
+2026-09-23 18:09:18,134 - INFO - Numeric anomaly cleaning completed.
+2026-09-23 18:09:18,136 - INFO - Imputed 10 missing values in temp using median 282.46.
+2026-09-23 18:09:18,137 - INFO - Imputed 1 missing values in rain_1h using median 0.00.
+2026-09-23 18:09:18,137 - INFO - Missing-value imputation completed.
+2026-09-23 18:09:18,145 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, temp_c, is_congested.
+2026-09-23 18:09:18,145 - INFO - Traffic data pipeline finished.
+2026-09-23 18:09:44,416 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:09:44,456 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 18:09:44,456 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 18:09:44,461 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 18:09:44,472 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 18:09:44,493 - INFO - Removed 17 exact duplicate rows. 48187 rows remain.
+2026-09-23 18:09:44,494 - INFO - Found 13042 rows belonging to repeated timestamps; these were retained because they may represent different weather conditions.
+2026-09-23 18:09:44,495 - WARNING - Found 10 invalid temperature values at or below 0 K.
+2026-09-23 18:09:44,496 - WARNING - Found 1 extreme rainfall values above 500 mm/hour.
+2026-09-23 18:09:44,496 - INFO - Numeric anomaly cleaning completed.
+2026-09-23 18:09:44,497 - INFO - Imputed 10 missing values in temp using median 282.46.
+2026-09-23 18:09:44,498 - INFO - Imputed 1 missing values in rain_1h using median 0.00.
+2026-09-23 18:09:44,498 - INFO - Missing-value imputation completed.
+2026-09-23 18:09:44,507 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:09:44,508 - INFO - Traffic data pipeline finished.
+2026-09-23 18:12:39,632 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:12:39,674 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 18:12:39,674 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 18:12:39,679 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 18:12:39,690 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 18:12:39,711 - INFO - Removed 17 exact duplicate rows. 48187 rows remain.
+2026-09-23 18:12:39,712 - INFO - Found 13042 rows belonging to repeated timestamps; these were retained because they may represent different weather conditions.
+2026-09-23 18:12:39,713 - WARNING - Found 10 invalid temperature values at or below 0 K.
+2026-09-23 18:12:39,714 - WARNING - Found 1 extreme rainfall values above 500 mm/hour.
+2026-09-23 18:12:39,714 - INFO - Numeric anomaly cleaning completed.
+2026-09-23 18:12:39,715 - INFO - Imputed 10 missing values in temp using median 282.46.
+2026-09-23 18:12:39,716 - INFO - Imputed 1 missing values in rain_1h using median 0.00.
+2026-09-23 18:12:39,716 - INFO - Missing-value imputation completed.
+2026-09-23 18:12:39,726 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:12:39,747 - INFO - Hourly dataset created: 40575 rows from 48187 cleaned rows.
+2026-09-23 18:12:39,747 - INFO - Traffic data pipeline finished.
+2026-09-23 18:16:20,437 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:16:20,478 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 18:16:20,478 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 18:16:20,484 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 18:16:20,495 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 18:16:20,515 - INFO - Removed 17 exact duplicate rows. 48187 rows remain.
+2026-09-23 18:16:20,516 - INFO - Found 13042 rows belonging to repeated timestamps; these were retained because they may represent different weather conditions.
+2026-09-23 18:16:20,517 - WARNING - Found 10 invalid temperature values at or below 0 K.
+2026-09-23 18:16:20,518 - WARNING - Found 1 extreme rainfall values above 500 mm/hour.
+2026-09-23 18:16:20,519 - INFO - Numeric anomaly cleaning completed.
+2026-09-23 18:16:20,520 - INFO - Imputed 10 missing values in temp using median 282.46.
+2026-09-23 18:16:20,521 - INFO - Imputed 1 missing values in rain_1h using median 0.00.
+2026-09-23 18:16:20,521 - INFO - Missing-value imputation completed.
+2026-09-23 18:16:20,530 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:16:20,542 - INFO - Hourly dataset created: 40575 rows from 48187 cleaned rows.
+2026-09-23 18:18:35,925 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:18:35,965 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 18:18:35,965 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 18:18:35,970 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 18:18:35,981 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 18:18:36,002 - INFO - Removed 17 exact duplicate rows. 48187 rows remain.
+2026-09-23 18:18:36,002 - INFO - Found 13042 rows belonging to repeated timestamps; these were retained because they may represent different weather conditions.
+2026-09-23 18:18:36,003 - WARNING - Found 10 invalid temperature values at or below 0 K.
+2026-09-23 18:18:36,004 - WARNING - Found 1 extreme rainfall values above 500 mm/hour.
+2026-09-23 18:18:36,004 - INFO - Numeric anomaly cleaning completed.
+2026-09-23 18:18:36,006 - INFO - Imputed 10 missing values in temp using median 282.46.
+2026-09-23 18:18:36,006 - INFO - Imputed 1 missing values in rain_1h using median 0.00.
+2026-09-23 18:18:36,007 - INFO - Missing-value imputation completed.
+2026-09-23 18:18:36,016 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:18:36,027 - INFO - Hourly dataset created: 40575 rows from 48187 cleaned rows.
+2026-09-23 18:18:36,031 - INFO - Hourly dataset created: 40575 rows from 40575 cleaned rows.
+2026-09-23 18:18:36,512 - INFO - Saved cleaned dataset: 40575 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/cleaned_traffic_data.csv.
+2026-09-23 18:18:36,512 - INFO - Saved hourly dataset: 40575 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/hourly_traffic_data.csv.
+2026-09-23 18:18:36,512 - INFO - Traffic data pipeline finished.
+2026-09-23 18:31:31,558 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:31:31,602 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 18:31:31,602 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 18:31:31,607 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 18:31:31,618 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 18:31:31,639 - WARNING - Dropped 17 exact duplicate rows because they were duplicate records. 48187 rows remain.
+2026-09-23 18:31:31,640 - INFO - Repeated-timestamp check completed: 13042 rows belong to repeated timestamps and were retained because they may represent different weather conditions.
+2026-09-23 18:31:31,641 - WARNING - Found 10 invalid temperature values at or below 0 K.
+2026-09-23 18:31:31,641 - WARNING - Found 1 extreme rainfall values above 500 mm/hour.
+2026-09-23 18:31:31,642 - INFO - Numeric anomaly cleaning completed.
+2026-09-23 18:31:31,643 - INFO - Imputed 10 missing values in temp using median 282.46.
+2026-09-23 18:31:31,644 - INFO - Imputed 1 missing values in rain_1h using median 0.00.
+2026-09-23 18:31:31,644 - INFO - Missing-value imputation completed.
+2026-09-23 18:31:31,654 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:31:31,666 - INFO - Hourly dataset created: 40575 rows from 48187 cleaned rows.
+2026-09-23 18:31:31,670 - INFO - Hourly dataset created: 40575 rows from 40575 cleaned rows.
+2026-09-23 18:31:32,138 - INFO - Saved cleaned dataset: 40575 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/cleaned_traffic_data.csv.
+2026-09-23 18:31:32,138 - INFO - Saved hourly dataset: 40575 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/hourly_traffic_data.csv.
+2026-09-23 18:31:32,138 - INFO - Traffic data pipeline finished.
+2026-09-23 18:32:52,926 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:32:52,975 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 18:32:52,976 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 18:32:52,981 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 18:32:52,992 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 18:32:53,013 - WARNING - Dropped 17 exact duplicate rows because they were duplicate records. 48187 rows remain.
+2026-09-23 18:32:53,014 - INFO - Repeated-timestamp check completed: 13042 rows belong to repeated timestamps and were retained because they may represent different weather conditions.
+2026-09-23 18:32:53,015 - WARNING - Modified 10 temperature values to missing because values at or below 0 K are physically invalid.
+2026-09-23 18:32:53,016 - INFO - Negative rainfall validation completed: no invalid values found.
+2026-09-23 18:32:53,016 - INFO - Negative snowfall validation completed: no invalid values found.
+2026-09-23 18:32:53,017 - WARNING - Modified 1 rainfall values above 500 mm/hour to missing because they were considered implausible sensor values.
+2026-09-23 18:32:53,018 - INFO - Imputed 10 missing values in temp using median 282.46.
+2026-09-23 18:32:53,019 - INFO - Imputed 1 missing values in rain_1h using median 0.00.
+2026-09-23 18:32:53,019 - INFO - Missing-value imputation completed.
+2026-09-23 18:32:53,029 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:32:53,041 - INFO - Hourly dataset created: 40575 rows from 48187 cleaned rows.
+2026-09-23 18:32:53,045 - INFO - Hourly dataset created: 40575 rows from 40575 cleaned rows.
+2026-09-23 18:32:53,453 - INFO - Saved cleaned dataset: 40575 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/cleaned_traffic_data.csv.
+2026-09-23 18:32:53,453 - INFO - Saved hourly dataset: 40575 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/hourly_traffic_data.csv.
+2026-09-23 18:32:53,453 - INFO - Traffic data pipeline finished.
+2026-09-23 18:34:05,883 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:34:05,929 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 18:34:05,929 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 18:34:05,935 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 18:34:05,946 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 18:34:05,968 - WARNING - Dropped 17 exact duplicate rows because they were duplicate records. 48187 rows remain.
+2026-09-23 18:34:05,969 - INFO - Repeated-timestamp check completed: 13042 rows belong to repeated timestamps and were retained because they may represent different weather conditions.
+2026-09-23 18:34:05,970 - WARNING - Modified 10 temperature values to missing because values at or below 0 K are physically invalid.
+2026-09-23 18:34:05,971 - INFO - Negative rainfall validation completed: no invalid values found.
+2026-09-23 18:34:05,971 - INFO - Negative snowfall validation completed: no invalid values found.
+2026-09-23 18:34:05,972 - WARNING - Modified 1 rainfall values above 500 mm/hour to missing because they were considered implausible sensor values.
+2026-09-23 18:34:05,973 - WARNING - Imputed 10 missing values in temp using median 282.46 because missing sensor values require replacement for downstream analysis.
+2026-09-23 18:34:05,974 - WARNING - Imputed 1 missing values in rain_1h using median 0.00 because missing sensor values require replacement for downstream analysis.
+2026-09-23 18:34:05,974 - INFO - Missing-value check for snow_1h completed: no values required imputation.
+2026-09-23 18:34:05,984 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:34:05,997 - INFO - Hourly dataset created: 40575 rows from 48187 cleaned rows.
+2026-09-23 18:34:06,001 - INFO - Hourly dataset created: 40575 rows from 40575 cleaned rows.
+2026-09-23 18:34:06,430 - INFO - Saved cleaned dataset: 40575 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/cleaned_traffic_data.csv.
+2026-09-23 18:34:06,430 - INFO - Saved hourly dataset: 40575 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/hourly_traffic_data.csv.
+2026-09-23 18:34:06,430 - INFO - Traffic data pipeline finished.
+2026-09-23 18:35:57,169 - INFO - Traffic data pipeline started.
+2026-09-23 18:35:57,212 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 18:35:57,213 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 18:35:57,218 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 18:35:57,229 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 18:35:57,250 - WARNING - Dropped 17 exact duplicate rows because they were duplicate records. 48187 rows remain.
+2026-09-23 18:35:57,251 - INFO - Repeated-timestamp check completed: 13042 rows belong to repeated timestamps and were retained because they may represent different weather conditions.
+2026-09-23 18:35:57,252 - WARNING - Modified 10 temperature values to missing because values at or below 0 K are physically invalid.
+2026-09-23 18:35:57,252 - INFO - Negative rainfall validation completed: no invalid values found.
+2026-09-23 18:35:57,253 - INFO - Negative snowfall validation completed: no invalid values found.
+2026-09-23 18:35:57,253 - WARNING - Modified 1 rainfall values above 500 mm/hour to missing because they were considered implausible sensor values.
+2026-09-23 18:35:57,255 - WARNING - Imputed 10 missing values in temp using median 282.46 because missing sensor values require replacement for downstream analysis.
+2026-09-23 18:35:57,256 - WARNING - Imputed 1 missing values in rain_1h using median 0.00 because missing sensor values require replacement for downstream analysis.
+2026-09-23 18:35:57,256 - INFO - Missing-value check for snow_1h completed: no values required imputation.
+2026-09-23 18:35:57,266 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:35:57,277 - INFO - Hourly dataset created: 40575 rows from 48187 cleaned rows.
+2026-09-23 18:35:57,707 - INFO - Saved cleaned dataset: 48187 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/cleaned_traffic_data.csv.
+2026-09-23 18:35:57,707 - INFO - Saved hourly dataset: 40575 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/hourly_traffic_data.csv.
+2026-09-23 18:35:57,708 - INFO - Traffic data pipeline finished successfully.
+2026-09-23 18:40:29,154 - INFO - Traffic data pipeline started.
+2026-09-23 18:40:29,194 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 18:40:29,195 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 18:40:29,200 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 18:40:29,211 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 18:40:29,232 - WARNING - Dropped 17 exact duplicate rows because they were duplicate records. 48187 rows remain.
+2026-09-23 18:40:29,234 - INFO - Repeated-timestamp check completed: 13042 rows belong to repeated timestamps and were retained because they may represent different weather conditions.
+2026-09-23 18:40:29,235 - WARNING - Modified 10 temperature values to missing because values at or below 0 K are physically invalid.
+2026-09-23 18:40:29,236 - INFO - Negative rainfall validation completed: no invalid values found.
+2026-09-23 18:40:29,238 - INFO - Negative snowfall validation completed: no invalid values found.
+2026-09-23 18:40:29,240 - WARNING - Modified 1 rainfall values above 500 mm/hour to missing because they were considered implausible sensor values.
+2026-09-23 18:40:29,243 - WARNING - Imputed 10 missing values in temp using median 282.46 because missing sensor values require replacement for downstream analysis.
+2026-09-23 18:40:29,245 - WARNING - Imputed 1 missing values in rain_1h using median 0.00 because missing sensor values require replacement for downstream analysis.
+2026-09-23 18:40:29,246 - INFO - Missing-value check for snow_1h completed: no values required imputation.
+2026-09-23 18:40:29,256 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:40:29,268 - INFO - Hourly dataset created: 40575 rows from 48187 cleaned rows.
+2026-09-23 18:40:29,714 - INFO - Saved cleaned dataset: 48187 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/cleaned_traffic_data.csv.
+2026-09-23 18:40:29,714 - INFO - Saved hourly dataset: 40575 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/hourly_traffic_data.csv.
+2026-09-23 18:40:29,714 - INFO - Traffic data pipeline finished successfully.
+2026-09-23 18:42:15,750 - ERROR - Dataset not found: this_file_does_not_exist.csv
+2026-09-23 18:42:15,750 - ERROR - Controlled test: pipeline error handling verified.
+Traceback (most recent call last):
+  File "<stdin>", line 7, in <module>
+  File "/mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/pipeline.py", line 33, in load_data
+    df = pd.read_csv(file_path)
+  File "/home/corvus_splendens/miniconda3/envs/tf-gpu/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/corvus_splendens/miniconda3/envs/tf-gpu/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/corvus_splendens/miniconda3/envs/tf-gpu/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/home/corvus_splendens/miniconda3/envs/tf-gpu/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/corvus_splendens/miniconda3/envs/tf-gpu/lib/python3.13/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'this_file_does_not_exist.csv'
+2026-09-23 18:48:27,727 - INFO - Traffic data pipeline started.
+2026-09-23 18:48:27,767 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 18:48:27,767 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 18:48:27,772 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 18:48:27,784 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 18:48:27,804 - WARNING - Dropped 17 exact duplicate rows because they were duplicate records. 48187 rows remain.
+2026-09-23 18:48:27,805 - INFO - Repeated-timestamp check completed: 13042 rows belong to repeated timestamps and were retained because they may represent different weather conditions.
+2026-09-23 18:48:27,806 - WARNING - Modified 10 temperature values to missing because values at or below 0 K are physically invalid.
+2026-09-23 18:48:27,806 - INFO - Negative rainfall validation completed: no invalid values found.
+2026-09-23 18:48:27,807 - INFO - Negative snowfall validation completed: no invalid values found.
+2026-09-23 18:48:27,807 - WARNING - Modified 1 rainfall values above 500 mm/hour to missing because they were considered implausible sensor values.
+2026-09-23 18:48:27,809 - WARNING - Imputed 10 missing values in temp using median 282.46 because missing sensor values require replacement for downstream analysis.
+2026-09-23 18:48:27,809 - WARNING - Imputed 1 missing values in rain_1h using median 0.00 because missing sensor values require replacement for downstream analysis.
+2026-09-23 18:48:27,809 - INFO - Missing-value check for snow_1h completed: no values required imputation.
+2026-09-23 18:48:27,819 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 18:48:27,830 - INFO - Hourly dataset created: 40575 rows from 48187 cleaned rows.
+2026-09-23 18:48:27,836 - INFO - Rolling traffic features created: 3-hour and 24-hour rolling averages.
+2026-09-23 18:48:28,401 - INFO - Saved cleaned dataset: 48187 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/cleaned_traffic_data.csv.
+2026-09-23 18:48:28,401 - INFO - Saved hourly dataset: 40575 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/hourly_traffic_data.csv.
+2026-09-23 18:48:28,401 - INFO - Traffic data pipeline finished successfully.
+2026-09-23 19:03:56,961 - INFO - Traffic data pipeline started.
+2026-09-23 19:03:57,000 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 19:03:57,000 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 19:03:57,005 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 19:03:57,016 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 19:03:57,037 - WARNING - Dropped 17 exact duplicate rows because they were duplicate records. 48187 rows remain.
+2026-09-23 19:03:57,039 - INFO - Repeated-timestamp check completed: 13042 rows belong to repeated timestamps and were retained because they may represent different weather conditions.
+2026-09-23 19:03:57,040 - WARNING - Modified 10 temperature values to missing because values at or below 0 K are physically invalid.
+2026-09-23 19:03:57,040 - INFO - Negative rainfall validation completed: no invalid values found.
+2026-09-23 19:03:57,040 - INFO - Negative snowfall validation completed: no invalid values found.
+2026-09-23 19:03:57,041 - WARNING - Modified 1 rainfall values above 500 mm/hour to missing because they were considered implausible sensor values.
+2026-09-23 19:03:57,044 - WARNING - Imputed 4 missing temperature values for month 1 using monthly median 266.83 K because temperature varies seasonally.
+2026-09-23 19:03:57,045 - WARNING - Imputed 6 missing temperature values for month 2 using monthly median 266.51 K because temperature varies seasonally.
+2026-09-23 19:03:57,051 - WARNING - Imputed 1 missing values in rain_1h using median 0.00 because missing sensor values require replacement for downstream analysis.
+2026-09-23 19:03:57,052 - INFO - Missing-value check for snow_1h completed: no values required imputation.
+2026-09-23 19:03:57,062 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 19:03:57,074 - INFO - Hourly dataset created: 40575 rows from 48187 cleaned rows.
+2026-09-23 19:03:57,078 - INFO - Rolling traffic features created: 3-hour and 24-hour rolling averages.
+2026-09-23 19:03:57,652 - INFO - Saved cleaned dataset: 48187 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/cleaned_traffic_data.csv.
+2026-09-23 19:03:57,652 - INFO - Saved hourly dataset: 40575 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/hourly_traffic_data.csv.
+2026-09-23 19:03:57,652 - INFO - Traffic data pipeline finished successfully.
+2026-09-23 19:08:36,700 - INFO - Traffic data pipeline started.
+2026-09-23 19:08:36,739 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 19:08:36,739 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 19:08:36,744 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 19:08:36,756 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 19:08:36,776 - WARNING - Dropped 17 exact duplicate rows because they were duplicate records. 48187 rows remain.
+2026-09-23 19:08:36,777 - INFO - Repeated-timestamp check completed: 13042 rows belong to repeated timestamps and were retained because they may represent different weather conditions.
+2026-09-23 19:08:36,779 - WARNING - Modified 10 temperature values to missing because values at or below 0 K are physically invalid.
+2026-09-23 19:08:36,779 - INFO - Negative rainfall validation completed: no invalid values found.
+2026-09-23 19:08:36,779 - INFO - Negative snowfall validation completed: no invalid values found.
+2026-09-23 19:08:36,780 - WARNING - Modified 1 rainfall values above 500 mm/hour to missing because they were considered implausible sensor values.
+2026-09-23 19:08:36,783 - WARNING - Imputed 4 missing temperature values for month 1 using monthly median 266.83 K because temperature varies seasonally.
+2026-09-23 19:08:36,784 - WARNING - Imputed 6 missing temperature values for month 2 using monthly median 266.51 K because temperature varies seasonally.
+2026-09-23 19:08:36,789 - WARNING - Imputed 1 missing values in rain_1h using median 0.00 because missing sensor values require replacement for downstream analysis.
+2026-09-23 19:08:36,790 - INFO - Missing-value check for snow_1h completed: no values required imputation.
+2026-09-23 19:08:36,799 - INFO - Feature engineering completed: hour, day_of_week, month, year, is_weekend, day_type, is_peak_hour, traffic_period, temp_c, is_congested.
+2026-09-23 19:08:36,811 - INFO - Hourly dataset created: 40575 rows from 48187 cleaned rows.
+2026-09-23 19:08:36,815 - INFO - Rolling traffic features created: 3-hour and 24-hour rolling averages.
+2026-09-23 19:08:37,400 - INFO - Saved cleaned dataset: 48187 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/cleaned_traffic_data.csv.
+2026-09-23 19:08:37,400 - INFO - Saved hourly dataset: 40575 rows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/hourly_traffic_data.csv.
+2026-09-23 19:08:37,400 - INFO - Traffic data pipeline finished successfully.
+2026-09-23 19:28:35,551 - INFO - Traffic data cleaning pipeline started.
+2026-09-23 19:28:35,590 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 19:28:35,591 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 19:28:35,596 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 19:28:35,606 - INFO - Holiday check completed: 48143 non-holiday entries are represented as missing values.
+2026-09-23 19:28:35,607 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 19:28:35,627 - WARNING - Dropped 17 exact duplicate rows because they were duplicate records. 48187 rows remain.
+2026-09-23 19:28:35,628 - INFO - Repeated-timestamp check completed: 13042 rows belong to repeated timestamps and were retained because they may represent different weather conditions.
+2026-09-23 19:28:35,629 - WARNING - Modified 10 temperature values to missing because values at or below 0 K are physically invalid.
+2026-09-23 19:28:35,630 - INFO - Negative rainfall validation completed: no invalid values found.
+2026-09-23 19:28:35,630 - INFO - Negative snowfall validation completed: no invalid values found.
+2026-09-23 19:28:35,630 - WARNING - Modified 1 rainfall values above 500 mm/hour to missing because they were considered implausible sensor values.
+2026-09-23 19:28:35,633 - WARNING - Imputed 4 missing temperature values for month 1 using monthly median 266.83 K because temperature varies seasonally.
+2026-09-23 19:28:35,634 - WARNING - Imputed 6 missing temperature values for month 2 using monthly median 266.51 K because temperature varies seasonally.
+2026-09-23 19:28:35,640 - WARNING - Imputed 1 missing values in rain_1h using median 0.00 because missing sensor values require replacement for downstream analysis.
+2026-09-23 19:28:35,640 - INFO - Missing-value check for snow_1h completed: no values required imputation.
+2026-09-23 19:28:35,749 - INFO - Saved cleaned dataset: 48187 rows, 9 columns to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/cleaned_traffic_data.csv.
+2026-09-23 19:28:35,749 - INFO - Traffic data cleaning pipeline finished successfully.
+2026-09-23 19:35:44,599 - INFO - Traffic data cleaning pipeline started.
+2026-09-23 19:35:44,640 - INFO - Dataset loaded successfully: 48204 rows, 9 columns.
+2026-09-23 19:35:44,641 - INFO - Schema validation passed: all required columns are present.
+2026-09-23 19:35:44,645 - INFO - Date validation passed: no invalid date_time values found.
+2026-09-23 19:35:44,656 - INFO - Holiday check completed: 48143 non-holiday entries are represented as missing values.
+2026-09-23 19:35:44,656 - INFO - Categorical standardization completed for: holiday, weather_main, weather_description.
+2026-09-23 19:35:44,677 - WARNING - Dropped 17 exact duplicate rows because they were duplicate records. 48187 rows remain.
+2026-09-23 19:35:44,678 - INFO - Repeated-timestamp check completed: 13042 rows belong to repeated timestamps and were retained because they may represent different weather conditions.
+2026-09-23 19:35:44,679 - WARNING - Modified 10 temperature values to missing because values at or below 0 K are physically invalid.
+2026-09-23 19:35:44,679 - INFO - Negative rainfall validation completed: no invalid values found.
+2026-09-23 19:35:44,680 - INFO - Negative snowfall validation completed: no invalid values found.
+2026-09-23 19:35:44,680 - WARNING - Modified 1 rainfall values above 500 mm/hour to missing because they were considered implausible sensor values.
+2026-09-23 19:35:44,683 - WARNING - Imputed 4 missing temperature values for month 1 using monthly median 266.83 K because temperature varies seasonally.
+2026-09-23 19:35:44,684 - WARNING - Imputed 6 missing temperature values for month 2 using monthly median 266.51 K because temperature varies seasonally.
+2026-09-23 19:35:44,690 - WARNING - Imputed 1 missing values in rain_1h using median 0.00 because missing sensor values require replacement for downstream analysis.
+2026-09-23 19:35:44,690 - INFO - Missing-value check for snow_1h completed: no values required imputation.
+2026-09-23 19:35:44,803 - INFO - Saved cleaned dataset: 48187 rows, 9 columns to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/cleaned_traffic_data.csv.
+2026-09-23 19:35:44,803 - INFO - Traffic data cleaning pipeline finished successfully.

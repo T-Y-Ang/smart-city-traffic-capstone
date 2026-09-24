@@ -1,0 +1,3 @@
+problem,model,mae,r2
+regression,Linear Regression,720.1888534801819,0.7634016241201312
+regression,Random Forest,249.1623817210926,0.9566717633358709

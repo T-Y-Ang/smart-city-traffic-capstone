@@ -1,0 +1,142 @@
+2026-09-25 01:12:33,587 - INFO - __main__ - Logging configured. Log file: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/logs/task2_unsupervised.log
+2026-09-25 01:12:33,590 - INFO - __main__ - Task 2 unsupervised-learning pipeline started.
+2026-09-25 01:12:33,590 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 01:12:33,693 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 01:12:33,708 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 01:12:33,708 - INFO - __main__ - Prepared Part 3 dataset with 40575 rows and 40 columns.
+2026-09-25 01:12:33,719 - INFO - __main__ - Evaluating K-means with k=2.
+2026-09-25 01:12:35,586 - INFO - __main__ - K-means k=2 - silhouette score: 0.3021.
+2026-09-25 01:12:35,586 - INFO - __main__ - Evaluating K-means with k=3.
+2026-09-25 01:12:37,405 - INFO - __main__ - K-means k=3 - silhouette score: 0.3072.
+2026-09-25 01:12:37,405 - INFO - __main__ - Evaluating K-means with k=4.
+2026-09-25 01:12:39,280 - INFO - __main__ - K-means k=4 - silhouette score: 0.2976.
+2026-09-25 01:12:39,280 - INFO - __main__ - Evaluating K-means with k=5.
+2026-09-25 01:12:41,136 - INFO - __main__ - K-means k=5 - silhouette score: 0.3183.
+2026-09-25 01:12:41,137 - INFO - __main__ - Evaluating K-means with k=6.
+2026-09-25 01:12:42,973 - INFO - __main__ - K-means k=6 - silhouette score: 0.3433.
+2026-09-25 01:14:33,270 - INFO - __main__ - Logging configured. Log file: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/logs/task2_unsupervised.log
+2026-09-25 01:14:33,272 - INFO - __main__ - Task 2 unsupervised-learning pipeline started.
+2026-09-25 01:14:33,272 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 01:14:33,367 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 01:14:33,378 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 01:14:33,379 - INFO - __main__ - Prepared Part 3 dataset with 40575 rows and 40 columns.
+2026-09-25 01:14:33,386 - INFO - __main__ - Evaluating K-means with k=2.
+2026-09-25 01:14:35,168 - INFO - __main__ - K-means k=2 - silhouette score: 0.3021.
+2026-09-25 01:14:35,169 - INFO - __main__ - Evaluating K-means with k=3.
+2026-09-25 01:14:36,899 - INFO - __main__ - K-means k=3 - silhouette score: 0.3072.
+2026-09-25 01:14:36,899 - INFO - __main__ - Evaluating K-means with k=4.
+2026-09-25 01:14:38,790 - INFO - __main__ - K-means k=4 - silhouette score: 0.2976.
+2026-09-25 01:14:38,791 - INFO - __main__ - Evaluating K-means with k=5.
+2026-09-25 01:14:40,663 - INFO - __main__ - K-means k=5 - silhouette score: 0.3183.
+2026-09-25 01:14:40,663 - INFO - __main__ - Evaluating K-means with k=6.
+2026-09-25 01:14:42,494 - INFO - __main__ - K-means k=6 - silhouette score: 0.3433.
+2026-09-25 01:14:43,535 - INFO - __main__ - Final K-means model fitted with 6 clusters.
+2026-09-25 01:20:33,743 - INFO - __main__ - Logging configured. Log file: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/logs/task2_unsupervised.log
+2026-09-25 01:20:33,745 - INFO - __main__ - Task 2 unsupervised-learning pipeline started.
+2026-09-25 01:20:33,745 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 01:20:33,843 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 01:20:33,855 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 01:20:33,855 - INFO - __main__ - Prepared Part 3 dataset with 40575 rows and 40 columns.
+2026-09-25 01:20:33,862 - INFO - __main__ - Evaluating K-means with k=2.
+2026-09-25 01:20:35,602 - INFO - __main__ - K-means k=2 - silhouette score: 0.3021.
+2026-09-25 01:20:35,603 - INFO - __main__ - Evaluating K-means with k=3.
+2026-09-25 01:20:37,379 - INFO - __main__ - K-means k=3 - silhouette score: 0.3072.
+2026-09-25 01:20:37,379 - INFO - __main__ - Evaluating K-means with k=4.
+2026-09-25 01:20:39,221 - INFO - __main__ - K-means k=4 - silhouette score: 0.2976.
+2026-09-25 01:20:39,221 - INFO - __main__ - Evaluating K-means with k=5.
+2026-09-25 01:20:40,990 - INFO - __main__ - K-means k=5 - silhouette score: 0.3183.
+2026-09-25 01:20:40,992 - INFO - __main__ - Evaluating K-means with k=6.
+2026-09-25 01:20:42,808 - INFO - __main__ - K-means k=6 - silhouette score: 0.3433.
+2026-09-25 01:20:43,849 - INFO - __main__ - Final K-means model fitted with 6 clusters.
+2026-09-25 01:20:43,857 - INFO - __main__ - K-means evaluation saved to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/kmeans_evaluation.csv.
+2026-09-25 01:20:43,857 - INFO - __main__ - K-means cluster profiles saved to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/kmeans_cluster_profiles.csv.
+2026-09-25 01:20:43,861 - INFO - __main__ - Created association-rule transaction data with 40575 rows.
+2026-09-25 01:20:43,862 - INFO - __main__ - Transaction categories:
+Time          4
+DayType       0
+Congestion    4
+Weather       3
+2026-09-25 01:25:22,519 - INFO - __main__ - Logging configured. Log file: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/logs/task2_unsupervised.log
+2026-09-25 01:25:22,521 - INFO - __main__ - Task 2 unsupervised-learning pipeline started.
+2026-09-25 01:25:22,522 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 01:25:22,627 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 01:25:22,639 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 01:25:22,639 - INFO - __main__ - Prepared Part 3 dataset with 40575 rows and 40 columns.
+2026-09-25 01:25:22,646 - INFO - __main__ - Evaluating K-means with k=2.
+2026-09-25 01:25:24,370 - INFO - __main__ - K-means k=2 - silhouette score: 0.3021.
+2026-09-25 01:25:24,370 - INFO - __main__ - Evaluating K-means with k=3.
+2026-09-25 01:25:26,207 - INFO - __main__ - K-means k=3 - silhouette score: 0.3072.
+2026-09-25 01:25:26,207 - INFO - __main__ - Evaluating K-means with k=4.
+2026-09-25 01:25:28,126 - INFO - __main__ - K-means k=4 - silhouette score: 0.2976.
+2026-09-25 01:25:28,126 - INFO - __main__ - Evaluating K-means with k=5.
+2026-09-25 01:25:29,955 - INFO - __main__ - K-means k=5 - silhouette score: 0.3183.
+2026-09-25 01:25:29,955 - INFO - __main__ - Evaluating K-means with k=6.
+2026-09-25 01:25:31,795 - INFO - __main__ - K-means k=6 - silhouette score: 0.3433.
+2026-09-25 01:25:32,841 - INFO - __main__ - Final K-means model fitted with 6 clusters.
+2026-09-25 01:25:32,850 - INFO - __main__ - K-means evaluation saved to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/kmeans_evaluation.csv.
+2026-09-25 01:25:32,851 - INFO - __main__ - K-means cluster profiles saved to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/kmeans_cluster_profiles.csv.
+2026-09-25 01:25:32,854 - INFO - __main__ - Created association-rule transaction data with 40575 rows.
+2026-09-25 01:25:32,856 - INFO - __main__ - Transaction categories:
+Time          4
+DayType       2
+Congestion    4
+Weather       3
+2026-09-25 01:28:13,763 - INFO - __main__ - Logging configured. Log file: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/logs/task2_unsupervised.log
+2026-09-25 01:28:13,764 - INFO - __main__ - Task 2 unsupervised-learning pipeline started.
+2026-09-25 01:28:13,764 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 01:28:13,866 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 01:28:13,878 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 01:28:13,878 - INFO - __main__ - Prepared Part 3 dataset with 40575 rows and 40 columns.
+2026-09-25 01:28:13,886 - INFO - __main__ - Evaluating K-means with k=2.
+2026-09-25 01:28:15,698 - INFO - __main__ - K-means k=2 - silhouette score: 0.3021.
+2026-09-25 01:28:15,698 - INFO - __main__ - Evaluating K-means with k=3.
+2026-09-25 01:28:17,528 - INFO - __main__ - K-means k=3 - silhouette score: 0.3072.
+2026-09-25 01:28:17,528 - INFO - __main__ - Evaluating K-means with k=4.
+2026-09-25 01:28:19,517 - INFO - __main__ - K-means k=4 - silhouette score: 0.2976.
+2026-09-25 01:28:19,517 - INFO - __main__ - Evaluating K-means with k=5.
+2026-09-25 01:28:21,453 - INFO - __main__ - K-means k=5 - silhouette score: 0.3183.
+2026-09-25 01:28:21,454 - INFO - __main__ - Evaluating K-means with k=6.
+2026-09-25 01:28:23,237 - INFO - __main__ - K-means k=6 - silhouette score: 0.3433.
+2026-09-25 01:28:24,309 - INFO - __main__ - Final K-means model fitted with 6 clusters.
+2026-09-25 01:28:24,316 - INFO - __main__ - K-means evaluation saved to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/kmeans_evaluation.csv.
+2026-09-25 01:28:24,317 - INFO - __main__ - K-means cluster profiles saved to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/kmeans_cluster_profiles.csv.
+2026-09-25 01:28:24,319 - INFO - __main__ - Created association-rule transaction data with 40575 rows.
+2026-09-25 01:28:24,322 - INFO - __main__ - Transaction categories:
+Time          4
+DayType       2
+Congestion    4
+Weather       3
+2026-09-25 01:28:24,327 - INFO - __main__ - One-hot encoded transactions into 13 binary items.
+2026-09-25 01:28:24,333 - INFO - __main__ - Apriori identified 84 frequent itemsets.
+2026-09-25 01:28:24,336 - INFO - __main__ - Generated 212 association rules with lift >= 1.0.
+2026-09-25 01:32:21,718 - INFO - __main__ - Logging configured. Log file: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/logs/task2_unsupervised.log
+2026-09-25 01:32:21,719 - INFO - __main__ - Task 2 unsupervised-learning pipeline started.
+2026-09-25 01:32:21,719 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 01:32:21,818 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 01:32:21,830 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 01:32:21,830 - INFO - __main__ - Prepared Part 3 dataset with 40575 rows and 40 columns.
+2026-09-25 01:32:21,837 - INFO - __main__ - Evaluating K-means with k=2.
+2026-09-25 01:32:23,776 - INFO - __main__ - K-means k=2 - silhouette score: 0.3021.
+2026-09-25 01:32:23,776 - INFO - __main__ - Evaluating K-means with k=3.
+2026-09-25 01:32:25,587 - INFO - __main__ - K-means k=3 - silhouette score: 0.3072.
+2026-09-25 01:32:25,587 - INFO - __main__ - Evaluating K-means with k=4.
+2026-09-25 01:32:27,485 - INFO - __main__ - K-means k=4 - silhouette score: 0.2976.
+2026-09-25 01:32:27,485 - INFO - __main__ - Evaluating K-means with k=5.
+2026-09-25 01:32:29,299 - INFO - __main__ - K-means k=5 - silhouette score: 0.3183.
+2026-09-25 01:32:29,299 - INFO - __main__ - Evaluating K-means with k=6.
+2026-09-25 01:32:31,086 - INFO - __main__ - K-means k=6 - silhouette score: 0.3433.
+2026-09-25 01:32:32,134 - INFO - __main__ - Final K-means model fitted with 6 clusters.
+2026-09-25 01:32:32,142 - INFO - __main__ - K-means evaluation saved to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/kmeans_evaluation.csv.
+2026-09-25 01:32:32,142 - INFO - __main__ - K-means cluster profiles saved to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/kmeans_cluster_profiles.csv.
+2026-09-25 01:32:32,145 - INFO - __main__ - Created association-rule transaction data with 40575 rows.
+2026-09-25 01:32:32,148 - INFO - __main__ - Transaction categories:
+Time          4
+DayType       2
+Congestion    4
+Weather       3
+2026-09-25 01:32:32,153 - INFO - __main__ - One-hot encoded transactions into 13 binary items.
+2026-09-25 01:32:32,161 - INFO - __main__ - Apriori identified 84 frequent itemsets.
+2026-09-25 01:32:32,164 - INFO - __main__ - Generated 212 association rules with lift >= 1.0.
+2026-09-25 01:32:32,174 - INFO - __main__ - Frequent itemsets saved to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/frequent_itemsets.csv.
+2026-09-25 01:32:32,174 - INFO - __main__ - Association rules saved to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/association_rules.csv.
+2026-09-25 01:32:32,176 - INFO - __main__ - Task 2 unsupervised-learning pipeline completed successfully.

@@ -1,0 +1,19 @@
+day_type,recommendation_weather,hour,mean_traffic_volume,median_traffic_volume,observations,traffic_rank
+Weekday,Low Visibility,2,299.7266666666667,286.5,150,1
+Weekday,Low Visibility,3,364.9593023255814,357.5,172,2
+Weekday,Low Visibility,1,388.17021276595744,377.0,141,3
+Weekday,Normal,2,304.54285714285714,291.0,805,1
+Weekday,Normal,3,362.6337285902503,356.0,759,2
+Weekday,Normal,1,403.75182481751824,384.0,822,3
+Weekday,Severe Weather,2,300.6045627376426,282.0,263,1
+Weekday,Severe Weather,3,362.1842105263158,354.0,266,2
+Weekday,Severe Weather,1,395.2589641434263,373.0,251,3
+Weekend,Low Visibility,3,401.8688524590164,398.0,61,1
+Weekend,Low Visibility,4,406.22727272727275,394.5,66,2
+Weekend,Low Visibility,2,617.4603174603175,626.0,63,3
+Weekend,Normal,4,384.47400611620793,383.0,327,1
+Weekend,Normal,3,403.64630225080384,391.0,311,2
+Weekend,Normal,2,629.27950310559,609.5,322,3
+Weekend,Severe Weather,4,354.7916666666667,359.5,96,1
+Weekend,Severe Weather,3,384.87,382.5,100,2
+Weekend,Severe Weather,2,591.5106382978723,589.0,94,3

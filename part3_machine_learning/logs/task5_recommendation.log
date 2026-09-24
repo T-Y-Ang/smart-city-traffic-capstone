@@ -1,0 +1,21 @@
+2026-09-25 03:39:00,826 - INFO - __main__ - Logging configured. Log file: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/logs/task5_recommendation.log
+2026-09-25 03:39:00,828 - INFO - __main__ - Task 5 travel-timing recommendation started.
+2026-09-25 03:39:00,828 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 03:39:00,930 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 03:39:00,948 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 03:39:00,949 - INFO - __main__ - Prepared dataset with 40575 observations for recommendation analysis.
+2026-09-25 03:39:00,971 - INFO - __main__ - Saved travel-timing recommendation table to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/travel_timing_recommendations.csv.
+2026-09-25 03:39:00,982 - INFO - __main__ - Saved best travel windows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/best_travel_windows.csv.
+2026-09-25 03:39:00,982 - INFO - __main__ - Generated 18 recommended travel windows.
+2026-09-25 03:39:00,983 - INFO - __main__ - Task 5 travel-timing recommendation completed successfully.
+2026-09-25 03:40:52,692 - INFO - __main__ - Logging configured. Log file: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/logs/task5_recommendation.log
+2026-09-25 03:40:52,693 - INFO - __main__ - Task 5 travel-timing recommendation started.
+2026-09-25 03:40:52,693 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 03:40:52,791 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 03:40:52,802 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 03:40:52,803 - INFO - __main__ - Prepared dataset with 40575 observations for recommendation analysis.
+2026-09-25 03:40:52,820 - INFO - __main__ - Saved travel-timing recommendation table to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/travel_timing_recommendations.csv.
+2026-09-25 03:40:52,833 - INFO - __main__ - Saved best travel windows to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/best_travel_windows.csv.
+2026-09-25 03:40:52,836 - INFO - __main__ - Saved plain-language recommendations to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/travel_recommendations.txt.
+2026-09-25 03:40:52,836 - INFO - __main__ - Generated 18 recommended travel windows.
+2026-09-25 03:40:52,836 - INFO - __main__ - Task 5 travel-timing recommendation completed successfully.

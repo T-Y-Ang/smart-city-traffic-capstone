@@ -1,0 +1,94 @@
+2026-09-25 00:52:22,501 - INFO - __main__ - Logging configured. Log file: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/logs/task1_supervised.log
+2026-09-25 00:52:22,504 - INFO - __main__ - Task 1 supervised-learning pipeline started.
+2026-09-25 00:52:22,504 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 00:52:22,602 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 00:52:22,613 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 00:52:22,614 - INFO - __main__ - Prepared Part 3 dataset with 40575 rows and 40 columns.
+2026-09-25 00:55:23,448 - INFO - __main__ - Logging configured. Log file: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/logs/task1_supervised.log
+2026-09-25 00:55:23,450 - INFO - __main__ - Task 1 supervised-learning pipeline started.
+2026-09-25 00:55:23,450 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 00:55:23,551 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 00:55:23,563 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 00:55:23,563 - INFO - __main__ - Prepared Part 3 dataset with 40575 rows and 40 columns.
+2026-09-25 00:55:23,573 - INFO - __main__ - Chronological split created: 32460 training rows and 8115 test rows.
+2026-09-25 00:55:23,574 - INFO - __main__ - Training period: 2012-10-02 09:00:00 to 2017-10-26 17:00:00.
+2026-09-25 00:55:23,574 - INFO - __main__ - Test period: 2017-10-26 18:00:00 to 2018-09-30 23:00:00.
+2026-09-25 00:55:23,574 - INFO - __main__ - High-risk proxy prevalence: training=13.34%, test=15.71%.
+2026-09-25 00:57:55,877 - INFO - __main__ - Logging configured. Log file: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/logs/task1_supervised.log
+2026-09-25 00:57:55,878 - INFO - __main__ - Task 1 supervised-learning pipeline started.
+2026-09-25 00:57:55,878 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 00:57:55,979 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 00:57:55,994 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 00:57:55,995 - INFO - __main__ - Prepared Part 3 dataset with 40575 rows and 40 columns.
+2026-09-25 00:57:56,005 - INFO - __main__ - Chronological split created: 32460 training rows and 8115 test rows.
+2026-09-25 00:57:56,006 - INFO - __main__ - Training period: 2012-10-02 09:00:00 to 2017-10-26 17:00:00.
+2026-09-25 00:57:56,006 - INFO - __main__ - Test period: 2017-10-26 18:00:00 to 2018-09-30 23:00:00.
+2026-09-25 00:57:56,007 - INFO - __main__ - High-risk proxy prevalence: training=13.34%, test=15.71%.
+2026-09-25 00:57:56,008 - INFO - __main__ - Training classification model: Logistic Regression.
+2026-09-25 00:57:56,504 - INFO - __main__ - Logistic Regression results - Accuracy: 0.9506, Precision: 0.7658, Recall: 0.9875, F1: 0.8626, ROC AUC: 0.9923.
+2026-09-25 00:57:56,510 - INFO - __main__ - Training classification model: Random Forest.
+2026-09-25 00:57:56,865 - INFO - __main__ - Random Forest results - Accuracy: 0.9832, Precision: 0.9234, Recall: 0.9741, F1: 0.9481, ROC AUC: 0.9976.
+2026-09-25 01:00:57,452 - INFO - __main__ - Logging configured. Log file: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/logs/task1_supervised.log
+2026-09-25 01:00:57,454 - INFO - __main__ - Task 1 supervised-learning pipeline started.
+2026-09-25 01:00:57,454 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 01:00:57,569 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 01:00:57,584 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 01:00:57,585 - INFO - __main__ - Prepared Part 3 dataset with 40575 rows and 40 columns.
+2026-09-25 01:00:57,594 - INFO - __main__ - Chronological split created: 32460 training rows and 8115 test rows.
+2026-09-25 01:00:57,595 - INFO - __main__ - Training period: 2012-10-02 09:00:00 to 2017-10-26 17:00:00.
+2026-09-25 01:00:57,596 - INFO - __main__ - Test period: 2017-10-26 18:00:00 to 2018-09-30 23:00:00.
+2026-09-25 01:00:57,596 - INFO - __main__ - High-risk proxy prevalence: training=13.34%, test=15.71%.
+2026-09-25 01:00:57,598 - INFO - __main__ - Training classification model: Logistic Regression.
+2026-09-25 01:00:57,951 - INFO - __main__ - Logistic Regression results - Accuracy: 0.9506, Precision: 0.7658, Recall: 0.9875, F1: 0.8626, ROC AUC: 0.9923.
+2026-09-25 01:00:57,955 - INFO - __main__ - Training classification model: Random Forest.
+2026-09-25 01:00:58,292 - INFO - __main__ - Random Forest results - Accuracy: 0.9832, Precision: 0.9234, Recall: 0.9741, F1: 0.9481, ROC AUC: 0.9976.
+2026-09-25 01:00:58,304 - INFO - __main__ - Training regression model: Linear Regression.
+2026-09-25 01:00:58,337 - INFO - __main__ - Linear Regression results - MAE: 720.19, R2: 0.7634.
+2026-09-25 01:00:58,337 - INFO - __main__ - Training regression model: Random Forest.
+2026-09-25 01:00:58,769 - INFO - __main__ - Random Forest results - MAE: 249.16, R2: 0.9567.
+2026-09-25 01:04:00,049 - INFO - __main__ - Logging configured. Log file: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/logs/task1_supervised.log
+2026-09-25 01:04:00,050 - INFO - __main__ - Task 1 supervised-learning pipeline started.
+2026-09-25 01:04:00,050 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 01:04:00,147 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 01:04:00,162 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 01:04:00,163 - INFO - __main__ - Prepared Part 3 dataset with 40575 rows and 40 columns.
+2026-09-25 01:04:00,172 - INFO - __main__ - Chronological split created: 32460 training rows and 8115 test rows.
+2026-09-25 01:04:00,173 - INFO - __main__ - Training period: 2012-10-02 09:00:00 to 2017-10-26 17:00:00.
+2026-09-25 01:04:00,173 - INFO - __main__ - Test period: 2017-10-26 18:00:00 to 2018-09-30 23:00:00.
+2026-09-25 01:04:00,174 - INFO - __main__ - High-risk proxy prevalence: training=13.34%, test=15.71%.
+2026-09-25 01:04:00,175 - INFO - __main__ - Training classification model: Logistic Regression.
+2026-09-25 01:04:00,828 - INFO - __main__ - Logistic Regression results - Accuracy: 0.9506, Precision: 0.7658, Recall: 0.9875, F1: 0.8626, ROC AUC: 0.9923.
+2026-09-25 01:04:00,838 - INFO - __main__ - Training classification model: Random Forest.
+2026-09-25 01:04:01,175 - INFO - __main__ - Random Forest results - Accuracy: 0.9832, Precision: 0.9234, Recall: 0.9741, F1: 0.9481, ROC AUC: 0.9976.
+2026-09-25 01:04:01,178 - INFO - __main__ - Training regression model: Linear Regression.
+2026-09-25 01:04:01,213 - INFO - __main__ - Linear Regression results - MAE: 720.19, R2: 0.7634.
+2026-09-25 01:04:01,213 - INFO - __main__ - Training regression model: Random Forest.
+2026-09-25 01:04:01,640 - INFO - __main__ - Random Forest results - MAE: 249.16, R2: 0.9567.
+2026-09-25 01:04:01,648 - INFO - __main__ - Classification results saved to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/classification_results.csv.
+2026-09-25 01:04:01,648 - INFO - __main__ - Regression results saved to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/regression_results.csv.
+2026-09-25 01:04:01,648 - INFO - __main__ - Task 1 supervised-learning pipeline completed successfully.
+2026-09-25 01:07:06,988 - INFO - __main__ - Logging configured. Log file: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/logs/task1_supervised.log
+2026-09-25 01:07:06,990 - INFO - __main__ - Task 1 supervised-learning pipeline started.
+2026-09-25 01:07:06,990 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 01:07:07,098 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 01:07:07,112 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 01:07:07,113 - INFO - __main__ - Prepared Part 3 dataset with 40575 rows and 40 columns.
+2026-09-25 01:07:07,122 - INFO - __main__ - Chronological split created: 32460 training rows and 8115 test rows.
+2026-09-25 01:07:07,123 - INFO - __main__ - Training period: 2012-10-02 09:00:00 to 2017-10-26 17:00:00.
+2026-09-25 01:07:07,123 - INFO - __main__ - Test period: 2017-10-26 18:00:00 to 2018-09-30 23:00:00.
+2026-09-25 01:07:07,124 - INFO - __main__ - High-risk proxy prevalence: training=13.34%, test=15.71%.
+2026-09-25 01:07:07,125 - INFO - __main__ - Training classification model: Logistic Regression.
+2026-09-25 01:07:07,702 - INFO - __main__ - Logistic Regression results - Accuracy: 0.9506, Precision: 0.7658, Recall: 0.9875, F1: 0.8626, ROC AUC: 0.9923.
+2026-09-25 01:07:07,710 - INFO - __main__ - Training classification model: Random Forest.
+2026-09-25 01:07:08,017 - INFO - __main__ - Random Forest results - Accuracy: 0.9832, Precision: 0.9234, Recall: 0.9741, F1: 0.9481, ROC AUC: 0.9976.
+2026-09-25 01:07:08,021 - INFO - __main__ - Training regression model: Linear Regression.
+2026-09-25 01:07:08,055 - INFO - __main__ - Linear Regression results - MAE: 720.19, R2: 0.7634.
+2026-09-25 01:07:08,055 - INFO - __main__ - Training regression model: Random Forest.
+2026-09-25 01:07:08,473 - INFO - __main__ - Random Forest results - MAE: 249.16, R2: 0.9567.
+2026-09-25 01:07:08,485 - INFO - __main__ - Saved trained model to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/2_models/logistic_regression_classifier.joblib.
+2026-09-25 01:07:08,682 - INFO - __main__ - Saved trained model to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/2_models/random_forest_classifier.joblib.
+2026-09-25 01:07:08,684 - INFO - __main__ - Saved trained model to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/2_models/linear_regression.joblib.
+2026-09-25 01:07:09,712 - INFO - __main__ - Saved trained model to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/2_models/random_forest_regressor.joblib.
+2026-09-25 01:07:09,738 - INFO - __main__ - Classification results saved to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/classification_results.csv.
+2026-09-25 01:07:09,739 - INFO - __main__ - Regression results saved to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/regression_results.csv.
+2026-09-25 01:07:09,739 - INFO - __main__ - Task 1 supervised-learning pipeline completed successfully.

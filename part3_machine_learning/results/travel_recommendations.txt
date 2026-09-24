@@ -1,0 +1,10 @@
+SMART CITY TRAFFIC — TRAVEL-TIMING RECOMMENDATIONS
+
+These recommendations are based on historical traffic patterns for a single traffic corridor. They recommend travel timing, not alternative physical routes, and do not guarantee future traffic conditions.
+
+- For weekday travel during low visibility conditions, the historically lower-traffic travel hours are 02:00, 03:00, 01:00. The lowest mean traffic volume in this group occurred at 02:00 (approximately 300 vehicles).
+- For weekday travel during normal conditions, the historically lower-traffic travel hours are 02:00, 03:00, 01:00. The lowest mean traffic volume in this group occurred at 02:00 (approximately 305 vehicles).
+- For weekday travel during severe weather conditions, the historically lower-traffic travel hours are 02:00, 03:00, 01:00. The lowest mean traffic volume in this group occurred at 02:00 (approximately 301 vehicles).
+- For weekend travel during low visibility conditions, the historically lower-traffic travel hours are 03:00, 04:00, 02:00. The lowest mean traffic volume in this group occurred at 03:00 (approximately 402 vehicles).
+- For weekend travel during normal conditions, the historically lower-traffic travel hours are 04:00, 03:00, 02:00. The lowest mean traffic volume in this group occurred at 04:00 (approximately 384 vehicles).
+- For weekend travel during severe weather conditions, the historically lower-traffic travel hours are 04:00, 03:00, 02:00. The lowest mean traffic volume in this group occurred at 04:00 (approximately 355 vehicles).

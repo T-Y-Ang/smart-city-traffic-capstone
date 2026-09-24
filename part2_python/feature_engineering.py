@@ -87,6 +87,7 @@ def create_time_features(df):
     # Basic time-based features.
     df["hour"] = df["date_time"].dt.hour
     df["day_of_week"] = df["date_time"].dt.day_name()
+    df["day_of_week_num"] = df["date_time"].dt.dayofweek
     df["month"] = df["date_time"].dt.month
     df["year"] = df["date_time"].dt.year
 
@@ -116,16 +117,26 @@ def create_time_features(df):
     df["hour_cos"] = np.cos(
         2 * np.pi * df["hour"] / 24
     )
+    
+    # Cyclical encoding of day of week.
+    df["day_of_week_sin"] = np.sin(
+        2 * np.pi * df["day_of_week_num"] / 7
+    )
+    
+    df["day_of_week_cos"] = np.cos(
+        2 * np.pi * df["day_of_week_num"] / 7
+    )
 
     logger.debug(
-        "Cyclical hour encoding created using sine and cosine "
-        "with a 24-hour period."
+    "Cyclical encodings created for hour using a 24-hour period "
+    "and day of week using a 7-day period."
     )
 
     logger.info(
-        "Time features created: hour, day_of_week, month, year, "
-        "is_weekend, day_type, is_peak_hour, traffic_period, "
-        "hour_sin, hour_cos."
+        "Time features created: hour, day_of_week, day_of_week_num, "
+        "month, year, is_weekend, day_type, is_peak_hour, "
+        "traffic_period, hour_sin, hour_cos, day_of_week_sin, "
+        "day_of_week_cos."
     )
 
     logger.debug(
@@ -215,6 +226,45 @@ def create_hourly_weather_features(df):
 
     return hourly_df
 
+
+def create_holiday_feature(df):
+    """Create a whole-day binary holiday indicator."""
+
+    df = df.copy()
+
+    # Identify calendar dates containing a recorded holiday.
+    holiday_dates = (
+        df.loc[df["holiday"].notna(), "date_time"]
+        .dt.normalize()
+        .unique()
+    )
+
+    # Mark every hourly observation on those dates as a holiday.
+    df["is_holiday"] = (
+        df["date_time"]
+        .dt.normalize()
+        .isin(holiday_dates)
+        .astype(int)
+    )
+
+    logger.debug(
+        "Identified %d unique holiday dates.",
+        len(holiday_dates)
+    )
+
+    logger.debug(
+        "Holiday indicator counts: %s.",
+        df["is_holiday"].value_counts().to_dict()
+    )
+
+    logger.info(
+        "Whole-day holiday indicator created from recorded holiday dates."
+    )
+
+    return df
+
+
+
 def create_scaled_features(df):
     """Create standardized versions of continuous numerical features."""
 
@@ -269,19 +319,21 @@ def create_congestion_category(df):
     df = df.copy()
 
     q1 = df["traffic_volume"].quantile(0.25)
+    q2 = df["traffic_volume"].quantile(0.50)
     q3 = df["traffic_volume"].quantile(0.75)
 
     logger.debug(
         "Congestion thresholds calculated from traffic volume: "
-        "Q1 = %.2f, Q3 = %.2f.",
+        "Q1 = %.2f, Q2 = %.2f, Q3 = %.2f.",
         q1,
+        q2,
         q3
     )
 
     df["congestion_category"] = pd.cut(
         df["traffic_volume"],
-        bins=[-np.inf, q1, q3, np.inf],
-        labels=["Low", "Moderate", "High"],
+        bins=[-np.inf, q1, q2, q3, np.inf],
+        labels=["Low", "Medium", "High", "Severe"],
         include_lowest=True
     )
 
@@ -294,7 +346,7 @@ def create_congestion_category(df):
 
     logger.info(
         "Data-driven congestion category created using the "
-        "25th and 75th percentiles of traffic volume."
+        "25th, 50th, and 75th percentiles of traffic volume."
     )
 
     return df
@@ -314,6 +366,7 @@ if __name__ == "__main__":
 
         traffic_df = create_time_features(traffic_df)
         traffic_df = create_hourly_weather_features(traffic_df)
+        traffic_df = create_holiday_feature(traffic_df)
         traffic_df = create_scaled_features(traffic_df)
         traffic_df = create_congestion_category(traffic_df)
 

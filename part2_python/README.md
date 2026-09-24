@@ -56,19 +56,22 @@ Run:
 python part2_python/feature_engineering.py
 ```
 
-The feature-engineering stage creates time-based features including hour, day of week, month, year, weekend status, peak-hour status and traffic period. Hour is also represented using sine and cosine cyclical encoding.
+The feature-engineering stage creates time-based features including hour, day of week, month, year, weekend status, peak-hour status and traffic period. Both hour and day of week are represented using sine and cosine cyclical encodings.
 
 Weather categories are converted into binary indicator variables. Repeated timestamps are then aggregated to one hourly observation while preserving the weather indicators associated with each timestamp.
 
+A whole-day holiday indicator is created from the recorded holiday dates so that all hourly observations occurring on a holiday are identified as holiday observations.
+
 Continuous variables including temperature, cloud coverage and traffic volume are standardised.
 
-Traffic congestion is divided into data-driven categories using traffic-volume quartiles:
+Traffic congestion is divided into four data-driven categories using traffic-volume quartiles:
 
 - Low: traffic volume less than or equal to the 25th percentile (1,248.5).
-- Moderate: traffic volume above the 25th percentile and less than or equal to the 75th percentile (4,952.0).
-- High: traffic volume above the 75th percentile.
+- Medium: traffic volume above the 25th percentile and less than or equal to the 50th percentile (3,427.0).
+- High: traffic volume above the 50th percentile and less than or equal to the 75th percentile (4,952.0).
+- Severe: traffic volume above the 75th percentile.
 
-The resulting engineered dataset contains 40,575 rows and 32 columns.
+The resulting engineered dataset contains 40,575 rows and 36 columns.
 
 Output:
 

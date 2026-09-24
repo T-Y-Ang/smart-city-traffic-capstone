@@ -3,3 +3,5 @@
 2026-09-24 01:41:12,146 - INFO - __main__ - Command invoked: date | arguments: {'command': 'date', 'date': '2017-99-50'}
 2026-09-24 01:41:12,232 - INFO - __main__ - Processed dataset loaded successfully: 40575 rows, 32 columns.
 2026-09-24 01:41:12,240 - ERROR - __main__ - Invalid date supplied to date command: 2017-99-50
+2026-09-25 00:11:38,644 - INFO - __main__ - Command invoked: high-traffic | arguments: {'command': 'high-traffic', 'top': 5}
+2026-09-25 00:11:38,767 - INFO - __main__ - Processed dataset loaded successfully: 40575 rows, 36 columns.

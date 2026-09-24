@@ -175,7 +175,7 @@ def plot_congestion_by_hour(df):
     # Keep the congestion categories in a logical order.
     category_order = [
         category
-        for category in ["Low", "Moderate", "High"]
+        for category in ["Low", "Medium", "High", "Severe"]
         if category in congestion_by_hour.columns
     ]
 

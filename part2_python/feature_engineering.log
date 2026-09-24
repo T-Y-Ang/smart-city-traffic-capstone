@@ -8,3 +8,17 @@
 2026-09-24 01:37:54,223 - INFO - __main__ - Dataset shape after feature engineering: 40575 rows, 32 columns.
 2026-09-24 01:37:54,572 - INFO - __main__ - Engineered dataset saved successfully to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv.
 2026-09-24 01:37:54,572 - INFO - __main__ - Feature engineering pipeline finished successfully.
+2026-09-24 23:02:55,112 - INFO - part2_python.feature_engineering - Time features created: hour, day_of_week, day_of_week_num, month, year, is_weekend, day_type, is_peak_hour, traffic_period, hour_sin, hour_cos, day_of_week_sin, day_of_week_cos.
+2026-09-24 23:07:11,008 - INFO - part2_python.feature_engineering - Data-driven congestion category created using the 25th, 50th, and 75th percentiles of traffic volume.
+2026-09-25 00:00:56,761 - INFO - part2_python.feature_engineering - Whole-day holiday indicator created from recorded holiday dates.
+2026-09-25 00:07:27,860 - INFO - __main__ - Feature engineering pipeline started.
+2026-09-25 00:07:27,907 - INFO - __main__ - Cleaned dataset loaded successfully: 48187 rows, 9 columns.
+2026-09-25 00:07:27,907 - INFO - __main__ - Dataset shape before feature engineering: 48187 rows, 9 columns.
+2026-09-25 00:07:27,918 - INFO - __main__ - Time features created: hour, day_of_week, day_of_week_num, month, year, is_weekend, day_type, is_peak_hour, traffic_period, hour_sin, hour_cos, day_of_week_sin, day_of_week_cos.
+2026-09-25 00:07:27,968 - INFO - __main__ - Hourly weather dataset created: 40575 rows from 48187 input rows.
+2026-09-25 00:07:27,972 - INFO - __main__ - Whole-day holiday indicator created from recorded holiday dates.
+2026-09-25 00:07:27,976 - INFO - __main__ - Scaled continuous features created for: temp, clouds_all, traffic_volume.
+2026-09-25 00:07:27,980 - INFO - __main__ - Data-driven congestion category created using the 25th, 50th, and 75th percentiles of traffic volume.
+2026-09-25 00:07:27,981 - INFO - __main__ - Dataset shape after feature engineering: 40575 rows, 36 columns.
+2026-09-25 00:07:28,421 - INFO - __main__ - Engineered dataset saved successfully to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv.
+2026-09-25 00:07:28,422 - INFO - __main__ - Feature engineering pipeline finished successfully.

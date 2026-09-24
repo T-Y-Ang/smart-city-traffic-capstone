@@ -5,3 +5,10 @@
 2026-09-24 01:39:17,717 - INFO - __main__ - Figure saved successfully: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/figures/temperature_vs_traffic.png
 2026-09-24 01:39:17,965 - INFO - __main__ - Figure saved successfully: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/figures/congestion_by_hour.png
 2026-09-24 01:39:17,965 - INFO - __main__ - Traffic visualisation pipeline finished successfully.
+2026-09-25 00:08:37,988 - INFO - __main__ - Traffic visualisation pipeline started.
+2026-09-25 00:08:38,099 - INFO - __main__ - Engineered dataset loaded successfully: 40575 rows, 36 columns.
+2026-09-25 00:08:38,457 - INFO - __main__ - Figure saved successfully: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/figures/hourly_profile_weekday_weekend.png
+2026-09-25 00:08:38,642 - INFO - __main__ - Figure saved successfully: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/figures/traffic_volume_distribution.png
+2026-09-25 00:08:39,437 - INFO - __main__ - Figure saved successfully: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/figures/temperature_vs_traffic.png
+2026-09-25 00:08:39,685 - INFO - __main__ - Figure saved successfully: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/figures/congestion_by_hour.png
+2026-09-25 00:08:39,685 - INFO - __main__ - Traffic visualisation pipeline finished successfully.

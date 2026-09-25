@@ -1,0 +1,13 @@
+2026-09-25 11:41:13,880 - INFO - __main__ - Model monitoring started.
+2026-09-25 11:41:13,880 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 11:41:14,002 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 11:41:14,017 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 11:41:14,018 - INFO - __main__ - Loaded 40575 observations for monitoring.
+2026-09-25 11:42:33,819 - INFO - __main__ - Model monitoring started.
+2026-09-25 11:42:33,820 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 11:42:33,920 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 11:42:33,935 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 11:42:33,936 - INFO - __main__ - Loaded 40575 observations for monitoring.
+2026-09-25 11:42:34,015 - INFO - __main__ - Reference MAE: 723.72 | Monitoring MAE: 716.66 | Change: -0.98% | Status: PASS - Normal
+2026-09-25 11:42:34,015 - INFO - __main__ - Saved monitoring results to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/model_monitoring_results.csv.
+2026-09-25 11:42:34,016 - INFO - __main__ - Model monitoring completed successfully.

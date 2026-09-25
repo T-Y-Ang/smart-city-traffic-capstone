@@ -1,0 +1,5 @@
+2026-09-25 11:47:06,693 - INFO - __main__ - MLflow tracking URI: sqlite:////mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/3_mlflow/mlflow.db
+2026-09-25 11:47:06,693 - INFO - __main__ - Model registration started.
+2026-09-25 11:47:12,287 - INFO - __main__ - Registered model traffic_volume_linear_regression from run 61dfa083760a4f75b3f3a4aa99909f22.
+2026-09-25 11:47:12,287 - INFO - __main__ - Logged model URI: models:/m-33956b6d3da2406ea81addaf194653d4
+2026-09-25 11:47:12,307 - INFO - __main__ - Model registration completed successfully.

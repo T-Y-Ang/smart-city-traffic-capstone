@@ -1,0 +1,3 @@
+2026-09-25 11:27:59,713 - INFO - part3_machine_learning.4_deployment.app - Loading classification model from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/2_models/logistic_regression_classifier.joblib.
+2026-09-25 11:36:36,542 - INFO - part3_machine_learning.4_deployment.app - Prediction generated: class=1, probability=0.9982.
+2026-09-25 11:36:38,873 - INFO - part3_machine_learning.4_deployment.app - Prediction generated: class=1, probability=0.9982.

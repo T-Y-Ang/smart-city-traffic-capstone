@@ -1,0 +1,23 @@
+artifact_path: /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/mlruns/1/models/m-33956b6d3da2406ea81addaf194653d4/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.13
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.15.2
+model_id: m-33956b6d3da2406ea81addaf194653d4
+model_size_bytes: 29160
+model_uuid: m-33956b6d3da2406ea81addaf194653d4
+prompts: null
+run_id: 61dfa083760a4f75b3f3a4aa99909f22
+utc_time_created: '2026-09-25 03:47:07.693344'

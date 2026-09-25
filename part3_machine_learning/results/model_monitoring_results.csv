@@ -1,0 +1,2 @@
+reference_start,reference_end,monitoring_start,monitoring_end,reference_observations,monitoring_observations,reference_mae,monitoring_mae,mae_change_percent,alert_threshold_percent,status
+2017-10-26 18:00:00,2018-04-14 15:00:00,2018-04-14 16:00:00,2018-09-30 23:00:00,4057,4058,723.7231404301441,716.6554374732827,-0.9765755109972953,20.0,PASS - Normal

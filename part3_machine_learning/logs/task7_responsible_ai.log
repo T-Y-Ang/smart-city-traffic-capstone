@@ -1,0 +1,37 @@
+2026-09-25 11:52:02,973 - INFO - __main__ - Responsible AI evaluation started.
+2026-09-25 11:52:02,973 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 11:52:03,081 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 11:52:03,097 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 11:52:03,097 - INFO - __main__ - Loaded 40575 observations for Responsible AI evaluation.
+2026-09-25 11:53:51,698 - INFO - __main__ - Responsible AI evaluation started.
+2026-09-25 11:53:51,699 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 11:53:51,812 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 11:53:51,827 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 11:53:51,828 - INFO - __main__ - Loaded 40575 observations for Responsible AI evaluation.
+2026-09-25 11:53:51,910 - INFO - __main__ - Saved subgroup performance metrics to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/responsible_ai_subgroup_metrics.csv.
+2026-09-25 11:53:51,910 - INFO - __main__ - Calculated performance for 8 operational subgroups.
+2026-09-25 11:53:51,910 - INFO - __main__ - Responsible AI evaluation completed successfully.
+2026-09-25 11:59:13,108 - INFO - __main__ - Responsible AI evaluation started.
+2026-09-25 11:59:13,108 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 11:59:13,229 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 11:59:13,244 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 11:59:13,245 - INFO - __main__ - Loaded 40575 observations for Responsible AI evaluation.
+2026-09-25 11:59:13,323 - INFO - __main__ - Saved subgroup performance metrics to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/responsible_ai_subgroup_metrics.csv.
+2026-09-25 12:02:57,459 - INFO - __main__ - Responsible AI evaluation started.
+2026-09-25 12:02:57,460 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 12:02:57,554 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 12:02:57,570 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 12:02:57,570 - INFO - __main__ - Loaded 40575 observations for Responsible AI evaluation.
+2026-09-25 12:02:57,652 - INFO - __main__ - Saved subgroup performance metrics to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/responsible_ai_subgroup_metrics.csv.
+2026-09-25 12:02:57,655 - INFO - __main__ - Saved Responsible AI report to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/reports/responsible_ai_report.md.
+2026-09-25 12:02:57,655 - INFO - __main__ - Calculated performance for 8 operational subgroups.
+2026-09-25 12:02:57,655 - INFO - __main__ - Responsible AI evaluation completed successfully.
+2026-09-25 13:10:33,216 - INFO - __main__ - Responsible AI evaluation started.
+2026-09-25 13:10:33,216 - INFO - common - Loading Part 2 engineered traffic dataset from /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part2_python/data/engineered_traffic_data.csv
+2026-09-25 13:10:33,329 - INFO - common - Loaded engineered traffic dataset with 40575 rows and 36 columns
+2026-09-25 13:10:33,344 - INFO - common - Created Part 3 high-risk proxy: 5605 positive observations (13.81%)
+2026-09-25 13:10:33,345 - INFO - __main__ - Loaded 40575 observations for Responsible AI evaluation.
+2026-09-25 13:10:33,430 - INFO - __main__ - Saved subgroup performance metrics to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/results/responsible_ai_subgroup_metrics.csv.
+2026-09-25 13:10:33,434 - INFO - __main__ - Saved Responsible AI report to /mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/reports/responsible_ai_report.md.
+2026-09-25 13:10:33,434 - INFO - __main__ - Calculated performance for 8 operational subgroups.
+2026-09-25 13:10:33,434 - INFO - __main__ - Responsible AI evaluation completed successfully.

@@ -2,13 +2,15 @@
 ## Description: 
 
 ## Tools
-## - SQLite DB Browser
-## - PowerBI
+## - SQLite / DB Browser for SQLite
+## - Power BI
 ## - Python
-## - PyTorch
-## - Jupyter Notebook
-## - GitHub
+## - scikit-learn
+## - TensorFlow / Keras
+## - SHAP
 ## - MLflow
+## - FastAPI
+## - GitHub
 
 # Repository structure
 ## Part 1: data analytics

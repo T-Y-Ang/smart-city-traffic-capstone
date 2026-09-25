@@ -225,7 +225,7 @@ Weekday traffic reaches its highest average level at approximately 16:00, while 
 
 The relationship between temperature and traffic volume is weakly positive (Pearson correlation approximately 0.139), indicating that temperature alone explains little of the variation in traffic volume.
 
-High-congestion observations are particularly concentrated in the afternoon commuting period, with approximately 70.1% of observations at 16:00 classified as High congestion under the quartile-based definition.
+Severe-congestion observations are particularly concentrated in the afternoon commuting period, with approximately 70.1% of observations at 16:00 classified as Severe congestion under the quartile-based definition.
 
 ## Limitations
 

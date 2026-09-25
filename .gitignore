@@ -32,3 +32,6 @@ Thumbs.db
 
 # DB Browser for SQLite project files
 *.sqbpro
+
+# Oversized MLflow model artifact retained locally
+mlruns/1/models/m-f83bffe356b44cf0b0326fdfb63284b8/artifacts/model.skops

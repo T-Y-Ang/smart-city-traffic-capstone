@@ -196,19 +196,29 @@ Then open:
 http://127.0.0.1:5001
 ```
 
-A Linear Regression model was additionally registered in the MLflow Model
-Registry as:
+### Model Registry and Versioning
+
+Model versioning was demonstrated using the MLflow Model Registry under the
+registered model name:
 
 ```text
-traffic_volume_linear_regression
+traffic_volume_prediction_model
 ```
 
-Version 1 demonstrates model version management.
+Two previously trained and evaluated regression models were registered as successive versions of the same traffic-volume prediction model:
 
-To reproduce the registration:
+| Version | Model | Role | MAE | R² |
+|---|---|---|---:|---:|
+| Version 1 | Linear Regression | Baseline | 720.19 | 0.7634 |
+| Version 2 | Random Forest Regression | Improved candidate | 249.16 | 0.9567 |
 
-```bash
-python part3_machine_learning/3_mlflow/register_model.py
+Version 1 provides a simple and interpretable baseline. Version 2 represents a higher-performing model iteration, reducing MAE from 720.19 to 249.16
+vehicles and increasing R² from 0.7634 to 0.9567 on the same chronological test set.
+
+The earlier `traffic_volume_linear_regression` Version 1 registration is retained in the MLflow database as part of the project history.
+
+The registration script uses the existing fitted model artifacts and does not retrain the models. Running the script again will create additional
+registry versions, so it should only be rerun when intentionally creating new versions.
 ```
 
 ## Task 5 — Travel-Timing Recommendation

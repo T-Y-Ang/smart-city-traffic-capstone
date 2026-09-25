@@ -3,3 +3,12 @@
 2026-09-25 11:47:12,287 - INFO - __main__ - Registered model traffic_volume_linear_regression from run 61dfa083760a4f75b3f3a4aa99909f22.
 2026-09-25 11:47:12,287 - INFO - __main__ - Logged model URI: models:/m-33956b6d3da2406ea81addaf194653d4
 2026-09-25 11:47:12,307 - INFO - __main__ - Model registration completed successfully.
+2026-09-25 13:25:26,053 - INFO - __main__ - MLflow tracking URI: sqlite:////mnt/c/Users/USER/OneDrive/Documents/GitHub/NUS-AI-ML-smart-city-traffic-capstone-project/part3_machine_learning/3_mlflow/mlflow.db
+2026-09-25 13:25:26,053 - INFO - __main__ - Model versioning registration started.
+2026-09-25 13:25:31,548 - INFO - __main__ - Registered Linear Regression as part of traffic_volume_prediction_model from run a60c6a6850fd43daab94e1e5616934a3.
+2026-09-25 13:25:31,548 - INFO - __main__ - Performance: MAE 720.19, R2 0.7634.
+2026-09-25 13:25:31,549 - INFO - __main__ - Logged model URI: models:/m-921fd9a1756f4535864db774b2b01c2a
+2026-09-25 13:25:39,507 - INFO - __main__ - Registered Random Forest Regression as part of traffic_volume_prediction_model from run a9d78ad442874bcbbb47e4ea2be44f31.
+2026-09-25 13:25:39,507 - INFO - __main__ - Performance: MAE 249.16, R2 0.9567.
+2026-09-25 13:25:39,507 - INFO - __main__ - Logged model URI: models:/m-f83bffe356b44cf0b0326fdfb63284b8
+2026-09-25 13:25:39,529 - INFO - __main__ - Model versioning registration completed successfully.

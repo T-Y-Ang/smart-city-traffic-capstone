@@ -1,9 +1,9 @@
 // Power Query (M) behind traffic_dashboard.pbix, Part 1 Task 4.1.
-// Paste into Home > Advanced Editor. The source path points at the WSL copy of the
+// Paste into Home > Advanced Editor. The source path points at the Windows copy of the
 // repository; change it (or use Data source settings) when opening the file elsewhere.
 let
     Source = Csv.Document(
-        File.Contents("\\wsl.localhost\Ubuntu-24.04\home\czy\metro-interstate\Metro_Interstate_Traffic_Volume.csv"),
+        File.Contents("C:\Users\USER\OneDrive\Documents\GitHub\NUS-AI-ML-smart-city-traffic-capstone-project\part1_data_analytics\data\Metro_Interstate_Traffic_Volume.csv"),
         [Delimiter = ",", Columns = 9, Encoding = 65001, QuoteStyle = QuoteStyle.None]
     ),
     PromotedHeaders = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),

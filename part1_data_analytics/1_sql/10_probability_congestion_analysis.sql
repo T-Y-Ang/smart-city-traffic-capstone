@@ -162,7 +162,7 @@ SELECT
 FROM hourly_data;
 -- clear-weather hours: 13371
 -- congested and clear hours: 1763
--- P(Clear∣Congestion) = 0.1319
+-- P(Congestion | Clear Weather) = 0.1319
 
 
 -- 6. Calculate P(Clear Weather | Congestion)
